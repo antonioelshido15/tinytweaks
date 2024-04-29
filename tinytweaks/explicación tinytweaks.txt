@@ -1,0 +1,38 @@
+1. @media(min-width: 500px):
+	Se aplica cuando el ancho mínimo del visor es de al menos 500 píxeles.
+	Aumenta el tamaño de fuente de los elementos con la clase .s1 a 1.3em.
+
+2. @media(min-width: 700px):
+	Se aplica cuando el ancho mínimo del visor es de al menos 700 píxeles.
+	Aumenta aún más el tamaño de fuente de .s1 elementos a 1.5em.
+	Además, establece el color del elemento <h1> (presumiblemente el encabezado principal) en #ff004e (rosa brillante).
+
+3. @media(min-width: 900px):
+	Se aplica cuando el ancho mínimo del visor es de al menos 900 píxeles.
+	Realiza cambios significativos en la clase .s1:
+	Aumenta el tamaño de fuente a 1.8em.
+	Establece el color del texto en aqua (azul verdoso claro).
+	Establece el color de fondo en blueviolet (púrpura profundo).
+	Establece el color del elemento <h1> en palevioletred (un tono violeta más claro).
+
+4. @media(min-width: 1000px):
+	Se aplica cuando el ancho mínimo del visor es de al menos 1000 píxeles.
+	Aplica un estilo más completo tanto a la clase .s1 como al elemento nav:
+	Para .s1:
+	Aumenta el padding a 2em.
+	Establece el color del texto en aqua (igual que el fondo en la consulta anterior).
+	Establece el color de fondo en blueviolet (igual que la consulta anterior).
+Para nav:
+	Aumenta el padding a 2em.
+	Establece el color de fondo en #ff004e (rosa brillante).
+	Aumenta el tamaño de fuente a 1.2em.
+	Convierte todo el texto a mayúsculas para una apariencia más llamativa.
+	Establece el color del elemento <h1> en #abd6e7 (un azul grisáceo claro).
+
+5. @media(min-width: 1100px):
+	Se aplica cuando el ancho mínimo del visor es de al menos 1100 píxeles.
+	Se centra en aplicar estilos al elemento nav:
+	Centra el contenido del texto dentro de la barra de navegación (text-align: center).
+Selecciona elementos secundarios específicos dentro del nav:
+	El segundo elemento secundario (nth-child(2)) obtiene su color de texto establecido en #0a2eff (azul brillante).
+	El tercer elemento secundario (nth-child(3)) obtiene su color de texto establecido en #6e0202 (rojo oscuro).
